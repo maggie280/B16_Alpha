@@ -1,5 +1,12 @@
-.container{
-    transform: 0 0 -50 -50;
+.row{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.container::after{
+    content:"";
+    clear: both;
+    display: table;
 }
 .mat-button-ripple.mat-ripple, .mat-button-focus-overlay {
     top: 0;
