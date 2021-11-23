@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-similar-books',
-  templateUrl: './similar-books.component.html',
-  styleUrls: ['./similar-books.component.scss']
+  selector:'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss']
 })
-export class SimilarBooksComponent implements OnInit {
+export class HeaderComponent  implements OnInit {
   
   
 
-  constructor() { }
+  constructor(title:Title){}
 
   ngOnInit(): void {
   }
