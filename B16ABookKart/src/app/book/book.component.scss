@@ -1,13 +1,22 @@
 *{
     box-sizing: border-box;
 }
-.row{
-    flex: 33.33%;
-    padding: 5px;
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    border: 1px solid black;
+
+
 }
+
 .container::after{
-    
-    display: inline-block;
+    float: right;
+    float: left;
+    transform: translate(-50,-50);
 }
 .mat-button-ripple.mat-ripple, .mat-button-focus-overlay {
     top: 0;
