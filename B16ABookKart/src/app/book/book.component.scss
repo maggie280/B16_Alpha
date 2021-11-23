@@ -5,10 +5,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 45%;
-    margin: 0 0 1em 0;
-    padding: 1em;
-    border: 1px solid black;
+    width: 50%;
+    
+    
 
 
 }
@@ -24,8 +23,7 @@
     right: 0;
     bottom: 0;
     position: absolute;
-    pointer-events: none;
-    border-radius: inherit;
+    
 }
 
 .mat-ripple {
@@ -35,31 +33,35 @@
 
 .product-containers {
     display: flex;
-    justify-content: space-around;
+    
 }
 
 .card img {
     width: 150px;
-    height: 200px;
-    margin-bottom: 15px;
+    height: 100px;
+    margin-bottom: 10px;
     position: relative;
+    
     // transition: 0.3s ease-in-out;
 }
 
 .card{
     padding: 20px;
-    margin: 20px;
+    margin: 2px;
+    padding-top: 10px;
 }
 
 
 .card:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);; 
+    box-shadow: 0 5px 15px rgb(255,192,236); 
 }
 
-.similarBooks{
-    background-color: rgb(255,192,236);
+.SimilarBooks{
+    background-color:rgb(255,192,236);
     text-align:left; 
+    font-size: medium;
     border: 50px;
     left:30px;
     color:rgb(17,0,255);
+    padding: 4px;
 }
